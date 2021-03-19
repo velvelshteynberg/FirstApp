@@ -1,0 +1,11 @@
+<h1> Hello </h1> 
+<h2> My books </h1>
+
+<ul>
+<% @books.each do |book| %> 
+    <li>
+    <%= book.author %>
+    </li>
+
+<%end%>
+</ul>
